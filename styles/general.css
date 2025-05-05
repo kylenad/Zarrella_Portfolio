@@ -1,0 +1,21 @@
+/* Global behaviors */
+* {
+    box-sizing: border-box; /* Includes padding in calculated width/height percentages to avoid horizontal scroll bars */
+  }
+  
+  p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+  
+  body {
+      /* This style below will be inherited */
+      margin: 0;
+  }
+  
+  main {
+      margin-top: 180px;
+      margin-left: 60px;
+      margin-right: 60px;
+  }
