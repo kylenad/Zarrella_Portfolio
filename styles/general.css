@@ -15,7 +15,10 @@
   }
   
   main {
+    /*Auto resize main page items and also sex max width for resizing*/
       margin-top: 180px;
-      margin-left: 60px;
-      margin-right: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 20px;
+      max-width: 1200px;
   }

@@ -50,10 +50,10 @@
     font-size: 30px;
     font-weight: 700;
     color:#b14bfa;
+    margin-bottom: 10px;
 }
 
 .welcome-right-text {
-    padding-top: 10px;
     font-size: 18px;
     text-indent: 2em;   /* Tab */
     line-height: 2.0;
@@ -80,4 +80,36 @@
     object-fit: contain;
 }
 
+.contact-tile-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    font-family: Arial;
+    margin-top: 20px;
+}
+
+.contact-title-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.contact-title-text {
+    font-size: 30px;
+    font-weight: 700;
+    color:#b14bfa;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-list {
+    font-size: 18px;
+    line-height: 2.0;
+    list-style-type: disc;
+    margin: 0px;
+}
 
