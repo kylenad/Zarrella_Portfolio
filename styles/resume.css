@@ -1,0 +1,18 @@
+.resume-toptile-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 730px;
+    width: 100%;
+    background-color: black;
+}
+
+.resume-picture-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edccff;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
